@@ -8,7 +8,7 @@
 - 언리얼 엔진의 샐행 환경(Runtime)
 - 언리얼 엔진 오브젝트의 선언과 관리
 - 언리얼 엔진 C++의 기능
-- 
+\- 
 ## 크리에이터 입장에서의 언리얼 엔진 시스템
 - 게임 컨텐츠를 수용하는 환경(월드, World)
 - 게임 컨텐츠의 기본 단위(액터, Actor)
@@ -31,3 +31,37 @@
 
 ## Content 디렉토리
 언리얼 엔진은 게임 프로젝트 에셋을 프로젝트의 Content 폴더에서 관리한다.
+
+
+## 언리얼 프로젝트 파일
+```json
+{
+	"FileVersion": 3,
+	"EngineAssociation": "5.0EA",
+	"Category": "",
+	"Description": ""
+}
+```
+
+## C++ 클래스 생성
+
+
+## 언리얼 프로젝트 파일
+```json
+{
+	"FileVersion": 3,
+	"EngineAssociation": "5.0EA",
+	"Category": "",
+	"Description": "",
+	"Modules": [
+		{
+			"Name": "ArenaBattle",
+			"Type": "Runtime",
+			"LoadingPhase": "Default",
+			"AdditionalDependencies": [
+				"Engine"
+			]
+		}
+	]
+}
+```
