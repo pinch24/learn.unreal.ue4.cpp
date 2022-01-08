@@ -19,7 +19,7 @@
 ---- 
 
 # 1. 개발 환경 설정
-![1.1.png][1.1]
+![1.1.png][image-1]
 
 ## Content 디렉토리
 언리얼 엔진은 게임 프로젝트 에셋을 프로젝트의 Content 폴더에서 관리한다.
@@ -40,7 +40,7 @@
 ```
 
 ## C++ 프로젝트로 확장
-![1.2.1-6.gif][1.2.1-6]
+![1.2.1-6.gif][image-2]
 <!--
 ![1.2.1.gif][1.2.1]
 ![1.2.2.gif][1.2.2]
@@ -49,6 +49,13 @@
 ![1.2.5.gif][1.2.5]
 ![1.2.6.gif][1.2.6]
 -->
+
+C++ 클래스가 생성되고 컴파일이 진행되면 블루프린트만 가능하던 게임 프로젝트가 C++ 프로그래밍도 가능한 프로젝트로 변경된다.
+프로젝트 전환이 끝나면 프로젝트에는 Visual Studio 파일들이 생성된다.
+- Binaries/: C++ 코드가 컴파일된 결과물을 임시로 저장한다.
+- Source/: C++ 코드를 저장한다. 언리얼 엔진 빌드 설정을 담은 C# 파일도 저장한다.
+- .sln: C++ 프로젝트를 관리하기 위한 Visual Studio 파일이다. 이 파일이 관리하는 대상은 Intermediate/ProjectFiles 폴더에 있다.
+- .vs/: Visual Studio 설정을 저장한다.
 
 ## 언리얼  C++ 프로젝트 파일
 `ArenaBattle.uproject`
@@ -70,13 +77,10 @@
 	]
 }
 ```
+C++ 프로젝트로 변환되면 Modules 항목이 추가된다. 언리얼 엔진 에디터가 시작될 때 Modules에 있는 내용도 함께 로딩하라는 의미로 게임 프로젝트의 Binaries/ 폴더에서 해당 모듈을 찾는다. 없으면 이 파일을 생성하기 위한 빌드를 진행하게 된다.
+---- 
 
+# 언리얼 C++ 개발 환경 설정
 
-[1.1]:	./Screenshots/1.1.png
-[1.2.1-6]:	./Screenshots/1.2.1-6.gif
-[1.2.1]:	./Screenshots/1.2.1.png
-[1.2.2]:	./Screenshots/1.2.2.png
-[1.2.3]:	./Screenshots/1.2.3.png
-[1.2.4]:	./Screenshots/1.2.4.png
-[1.2.5]:	./Screenshots/1.2.5.png
-[1.2.6]:	./Screenshots/1.2.6.png
+[image-1]:	./Screenshots/1.1.png
+[image-2]:	./Screenshots/1.2.1-6.gif
