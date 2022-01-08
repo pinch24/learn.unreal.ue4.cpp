@@ -8,9 +8,9 @@
 - 언리얼 엔진의 샐행 환경(Runtime)
 - 언리얼 엔진 오브젝트의 선언과 관리
 - 언리얼 엔진 C++의 기능
-\- 
+
 ## 크리에이터 입장에서의 언리얼 엔진 시스템
-- 게임 컨텐츠를 수용하는 환경(월드, World)
+- 게임 컨텐츠를 수용하는 환경(월드, World)ed
 - 게임 컨텐츠의 기본 단위(액터, Actor)
 - 게임 플레이가 진행되는 배경(레벨, Level)
 - 게임 플레이어에게 부여되는 액터
@@ -19,15 +19,7 @@
 ---- 
 
 # 1. 개발 환경 설정
-```md
-# Start Unreal Engine
-# Unreal Project Browser
-- [Third Person]
-- [Blueprint]
-- Starter Content: [x]
-- Project Name: ["ArenaBattle"]
-# [Create]
-```
+![][image-1]
 
 ## Content 디렉토리
 언리얼 엔진은 게임 프로젝트 에셋을 프로젝트의 Content 폴더에서 관리한다.
@@ -65,3 +57,6 @@
 	]
 }
 ```
+
+
+[image-1]:	Images/1.1.png
