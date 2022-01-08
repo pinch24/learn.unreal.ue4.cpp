@@ -19,8 +19,7 @@
 ---- 
 
 # 1. 개발 환경 설정
-![][image-1]
-
+![1.1.png][image-1]
 ## Content 디렉토리
 언리얼 엔진은 게임 프로젝트 에셋을 프로젝트의 Content 폴더에서 관리한다.
 - Config: 게임 프로젝트의 설정 값을 저장한다.
@@ -40,7 +39,7 @@
 ```
 
 ## C++ 프로젝트로 확장
-![][image-2]
+![1.2.1.png][image-2]
 ![][image-3]
 ![][image-4]
 ![][image-5]
@@ -69,8 +68,8 @@
 ```
 
 
-[image-1]:	https://github.com/pinch24/learn.unreal/blob/main/01.%20Unreal%20C%2B%2B/Screenshots/1.1.png
-[image-2]:	https://github.com/pinch24/learn.unreal/blob/main/01.%20Unreal%20C%2B%2B/Screenshots/1.2.1.png
+[image-1]:	./Screenshots/1.1.png
+[image-2]:	./Screenshots/1.2.1.png
 [image-3]:	https://github.com/pinch24/learn.unreal/blob/main/01.%20Unreal%20C%2B%2B/Screenshots/1.2.2.png
 [image-4]:	https://github.com/pinch24/learn.unreal/blob/main/01.%20Unreal%20C%2B%2B/Screenshots/1.2.3.png
 [image-5]:	https://github.com/pinch24/learn.unreal/blob/main/01.%20Unreal%20C%2B%2B/Screenshots/1.2.4.png
