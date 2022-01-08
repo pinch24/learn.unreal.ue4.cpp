@@ -19,7 +19,7 @@
 ---- 
 
 # 1. 개발 환경 설정
-![1.1.png][image-1]
+![1.1.png][1.1]
 
 ## Content 디렉토리
 언리얼 엔진은 게임 프로젝트 에셋을 프로젝트의 Content 폴더에서 관리한다.
@@ -40,14 +40,15 @@
 ```
 
 ## C++ 프로젝트로 확장
-![1.2.1-6.gif][image-8]
-![1.2.1.png][image-2]
-![1.2.2.png][image-3]
-![1.2.3.png][image-4]
-![1.2.4.png][image-5]
-![1.2.5.png][image-6]
-![1.2.6.png][image-7]
-
+![1.2.1-6.gif][1.2.1-6]
+<!--
+![1.2.1.gif][1.2.1]
+![1.2.2.gif][1.2.2]
+![1.2.3.gif][1.2.3]
+![1.2.4.gif][1.2.4]
+![1.2.5.gif][1.2.5]
+![1.2.6.gif][1.2.6]
+-->
 
 ## 언리얼  C++ 프로젝트 파일
 `ArenaBattle.uproject`
@@ -71,11 +72,11 @@
 ```
 
 
-[image-1]:	./Screenshots/1.1.png
-[image-2]:	./Screenshots/1.2.1.png
-[image-3]:	./Screenshots/1.2.2.png
-[image-4]:	./Screenshots/1.2.3.png
-[image-5]:	./Screenshots/1.2.4.png
-[image-6]:	./Screenshots/1.2.5.png
-[image-7]:	./Screenshots/1.2.6.png
-[image-8]:	./Screenshots/1.2.1-6.gif
+[1.1]:	./Screenshots/1.1.png
+[1.2.1-6]:	./Screenshots/1.2.1-6.gif
+[1.2.1]:	./Screenshots/1.2.1.png
+[1.2.2]:	./Screenshots/1.2.2.png
+[1.2.3]:	./Screenshots/1.2.3.png
+[1.2.4]:	./Screenshots/1.2.4.png
+[1.2.5]:	./Screenshots/1.2.5.png
+[1.2.6]:	./Screenshots/1.2.6.png
