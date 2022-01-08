@@ -1,0 +1,3 @@
+D:\Repositories\learn.unreal\01. Unreal C++\ArenaBattle\Intermediate\Build\Win64\UnrealEditor\Development\ArenaBattle\Definitions.ArenaBattle.h
+D:\Repositories\learn.unreal\01. Unreal C++\ArenaBattle\Source\ArenaBattle\Fountain.h
+D:\Repositories\learn.unreal\01. Unreal C++\ArenaBattle\Intermediate\Build\Win64\UnrealEditor\Inc\ArenaBattle\Fountain.generated.h

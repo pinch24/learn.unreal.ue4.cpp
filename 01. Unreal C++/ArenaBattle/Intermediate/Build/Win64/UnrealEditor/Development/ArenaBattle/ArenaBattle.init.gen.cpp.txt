@@ -1,0 +1,3 @@
+D:\Repositories\learn.unreal\01. Unreal C++\ArenaBattle\Intermediate\Build\Win64\UnrealEditor\Development\ArenaBattle\Definitions.ArenaBattle.h
+C:\Program Files\Epic Games\UE_5.0EA\Engine\Source\Runtime\CoreUObject\Public\UObject/GeneratedCppIncludes.h
+C:\Program Files\Epic Games\UE_5.0EA\Engine\Source\Runtime\CoreUObject\Public\UObject/MetaData.h
