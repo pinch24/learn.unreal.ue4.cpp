@@ -94,5 +94,5 @@ C++ 프로젝트로 변환되면 Modules 항목이 추가된다. 언리얼 엔�
 Visual Studio에서 빌드한 EXE 파일은 언리얼 엔진에서 리소스와 묶인 패키지 형태로 배포되어야 한다. Visual Studio 빌드는 리소스 없이 실행 파일만 빌드한다.
 
 [image-1]:	1.1.png
-[image-2]:	./Screenshots/1.2.1-6.gif
-[image-3]:	./Screenshots/1.3.1-4.gif
+[image-2]:	1.2.1-6.gif
+[image-3]:	1.3.1-4.gif
